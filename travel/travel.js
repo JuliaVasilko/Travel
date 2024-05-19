@@ -22,7 +22,6 @@ function initSlider() {}
 
 function getSomeData() {
   const btns = document.querySelectorAll("button");
-  console.log(btns);
 }
 
 let offSet = 0;
