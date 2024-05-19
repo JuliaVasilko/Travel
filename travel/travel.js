@@ -13,10 +13,7 @@ function initModalHandler() {
   function toggleModal() {
     modal.classList.toggle("hide");
   }
-  // function handleModalClick(event) {
-  //     event.preventDefault();
 
-  // }
   burger.addEventListener("click", () => toggleModal());
   modal.addEventListener("click", (event) => handleModalClick(event));
 }
