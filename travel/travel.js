@@ -74,7 +74,6 @@ function initLoginModalHandler() {
   const loginModal = document.querySelector(".login-modal");
   const ssilka = document.getElementById("ssilka");
   const createDivWrapper = document.querySelector(".create-div-wrapper");
-  const createDiv = document.querySelector(".create-div");
   const ssilkaTwo = document.getElementById("ssilka-two");
 
   ssilka.addEventListener("click", showCreateDiv);
